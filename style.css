@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+h1 {
+    color: #ff4b5c;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #fff0f3;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.playful ul {
+    list-style: none;
+    padding: 0;
+}
+
+.playful li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.nav a {
+    display: inline-block;
+    margin: 8px;
+    text-decoration: none;
+    background: #ff4b5c;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+.nav a:hover {
+    transform: scale(1.1);
+}
+
+.music-control {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: white;
+    padding: 10px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.ending {
+    color: #ff4b5c;
+    font-size: 18px;
+    font-weight: bold;
+}
